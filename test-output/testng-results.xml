@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-15T21:02:31 ICT" name="Default suite" finished-at="2026-11-15T21:03:11 ICT" duration-ms="40148">
+    <groups>
+    </groups>
+    <test started-at="2026-11-15T21:02:31 ICT" name="Default test" finished-at="2026-11-15T21:03:11 ICT" duration-ms="40148">
+      <class name="test.Demotest">
+        <test-method is-config="true" signature="reportSetUp()[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:31 ICT" name="reportSetUp" finished-at="2026-11-15T21:02:31 ICT" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:31 ICT" name="setUp" finished-at="2026-11-15T21:02:36 ICT" duration-ms="4458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="test(java.lang.reflect.Method)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:36 ICT" name="test" finished-at="2026-11-15T21:02:36 ICT" duration-ms="108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Demotest.login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="login()[pri:1, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:36 ICT" name="login" finished-at="2026-11-15T21:02:38 ICT" duration-ms="2136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:38 ICT" name="afterMethod" finished-at="2026-11-15T21:02:38 ICT" duration-ms="146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Demotest.login()[pri:1, instance:test.Demotest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="test(java.lang.reflect.Method)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:38 ICT" name="test" finished-at="2026-11-15T21:02:38 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Demotest.home()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="home()[pri:2, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:38 ICT" name="home" finished-at="2026-11-15T21:02:38 ICT" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:38 ICT" name="afterMethod" finished-at="2026-11-15T21:02:39 ICT" duration-ms="177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=home status=SUCCESS method=Demotest.home()[pri:2, instance:test.Demotest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="test(java.lang.reflect.Method)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:39 ICT" name="test" finished-at="2026-11-15T21:02:39 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Demotest.phonepage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="phonepage()[pri:3, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:39 ICT" name="phonepage" finished-at="2026-11-15T21:02:39 ICT" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phonepage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:39 ICT" name="afterMethod" finished-at="2026-11-15T21:02:39 ICT" duration-ms="154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=phonepage status=SUCCESS method=Demotest.phonepage()[pri:3, instance:test.Demotest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="test(java.lang.reflect.Method)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:39 ICT" name="test" finished-at="2026-11-15T21:02:39 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Demotest.alllinks()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="alllinks()[pri:4, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:39 ICT" name="alllinks" finished-at="2026-11-15T21:02:39 ICT" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alllinks -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:39 ICT" name="afterMethod" finished-at="2026-11-15T21:02:39 ICT" duration-ms="185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alllinks status=SUCCESS method=Demotest.alllinks()[pri:4, instance:test.Demotest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="test(java.lang.reflect.Method)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:39 ICT" name="test" finished-at="2026-11-15T21:02:39 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Demotest.product()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="product()[pri:5, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:39 ICT" name="product" finished-at="2026-11-15T21:02:40 ICT" duration-ms="778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- product -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:40 ICT" name="afterMethod" finished-at="2026-11-15T21:02:40 ICT" duration-ms="205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=product status=SUCCESS method=Demotest.product()[pri:5, instance:test.Demotest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="cart()[pri:6, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:40 ICT" name="cart" finished-at="2026-11-15T21:02:42 ICT" duration-ms="1707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method is-config="true" signature="test(java.lang.reflect.Method)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:40 ICT" name="test" finished-at="2026-11-15T21:02:40 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Demotest.cart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:42 ICT" name="afterMethod" finished-at="2026-11-15T21:02:42 ICT" duration-ms="221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cart status=SUCCESS method=Demotest.cart()[pri:6, instance:test.Demotest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="test(java.lang.reflect.Method)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:42 ICT" name="test" finished-at="2026-11-15T21:02:42 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Demotest.carticon()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="carticon()[pri:7, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:42 ICT" name="carticon" finished-at="2026-11-15T21:02:43 ICT" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carticon -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:43 ICT" name="afterMethod" finished-at="2026-11-15T21:02:43 ICT" duration-ms="225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=carticon status=SUCCESS method=Demotest.carticon()[pri:7, instance:test.Demotest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="test(java.lang.reflect.Method)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:43 ICT" name="test" finished-at="2026-11-15T21:02:43 ICT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Demotest.placeorder()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="placeorder()[pri:8, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:43 ICT" name="placeorder" finished-at="2026-11-15T21:02:43 ICT" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeorder -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:43 ICT" name="afterMethod" finished-at="2026-11-15T21:02:43 ICT" duration-ms="228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=placeorder status=SUCCESS method=Demotest.placeorder()[pri:8, instance:test.Demotest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="test(java.lang.reflect.Method)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:43 ICT" name="test" finished-at="2026-11-15T21:02:43 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Demotest.fill()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="fill()[pri:9, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:43 ICT" name="fill" finished-at="2026-11-15T21:02:44 ICT" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fill -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:44 ICT" name="afterMethod" finished-at="2026-11-15T21:02:44 ICT" duration-ms="168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fill status=SUCCESS method=Demotest.fill()[pri:9, instance:test.Demotest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="test(java.lang.reflect.Method)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:44 ICT" name="test" finished-at="2026-11-15T21:02:44 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Demotest.confirmation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="confirmation()[pri:10, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:44 ICT" name="confirmation" finished-at="2026-11-15T21:02:44 ICT" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmation -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:44 ICT" name="afterMethod" finished-at="2026-11-15T21:02:44 ICT" duration-ms="156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=confirmation status=SUCCESS method=Demotest.confirmation()[pri:10, instance:test.Demotest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="test(java.lang.reflect.Method)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:44 ICT" name="test" finished-at="2026-11-15T21:02:44 ICT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Demotest.close()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="close()[pri:11, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:44 ICT" name="close" finished-at="2026-11-15T21:02:44 ICT" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:44 ICT" name="afterMethod" finished-at="2026-11-15T21:02:45 ICT" duration-ms="139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=close status=SUCCESS method=Demotest.close()[pri:11, instance:test.Demotest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="newtab()[pri:12, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:45 ICT" name="newtab" finished-at="2026-11-15T21:02:45 ICT" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newtab -->
+        <test-method is-config="true" signature="test(java.lang.reflect.Method)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:45 ICT" name="test" finished-at="2026-11-15T21:02:45 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Demotest.newtab()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:45 ICT" name="afterMethod" finished-at="2026-11-15T21:02:45 ICT" duration-ms="151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=newtab status=SUCCESS method=Demotest.newtab()[pri:12, instance:test.Demotest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="addAllLaptops()[pri:13, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:45 ICT" name="addAllLaptops" finished-at="2026-11-15T21:03:03 ICT" duration-ms="18444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAllLaptops -->
+        <test-method is-config="true" signature="test(java.lang.reflect.Method)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:02:45 ICT" name="test" finished-at="2026-11-15T21:02:45 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Demotest.addAllLaptops()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:03 ICT" name="afterMethod" finished-at="2026-11-15T21:03:04 ICT" duration-ms="272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addAllLaptops status=SUCCESS method=Demotest.addAllLaptops()[pri:13, instance:test.Demotest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="test(java.lang.reflect.Method)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:04 ICT" name="test" finished-at="2026-11-15T21:03:04 ICT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Demotest.hometab()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="hometab()[pri:14, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:04 ICT" name="hometab" finished-at="2026-11-15T21:03:05 ICT" duration-ms="939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hometab -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:05 ICT" name="afterMethod" finished-at="2026-11-15T21:03:05 ICT" duration-ms="308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=hometab status=SUCCESS method=Demotest.hometab()[pri:14, instance:test.Demotest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="test(java.lang.reflect.Method)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:05 ICT" name="test" finished-at="2026-11-15T21:03:05 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Demotest.next()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="next()[pri:15, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:05 ICT" name="next" finished-at="2026-11-15T21:03:05 ICT" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- next -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:05 ICT" name="afterMethod" finished-at="2026-11-15T21:03:05 ICT" duration-ms="165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=next status=SUCCESS method=Demotest.next()[pri:15, instance:test.Demotest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="test(java.lang.reflect.Method)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:05 ICT" name="test" finished-at="2026-11-15T21:03:05 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Demotest.monitor()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="monitor()[pri:16, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:05 ICT" name="monitor" finished-at="2026-11-15T21:03:05 ICT" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- monitor -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:05 ICT" name="afterMethod" finished-at="2026-11-15T21:03:06 ICT" duration-ms="303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=monitor status=SUCCESS method=Demotest.monitor()[pri:16, instance:test.Demotest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="previous()[pri:17, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:06 ICT" name="previous" finished-at="2026-11-15T21:03:06 ICT" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- previous -->
+        <test-method is-config="true" signature="test(java.lang.reflect.Method)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:06 ICT" name="test" finished-at="2026-11-15T21:03:06 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Demotest.previous()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:06 ICT" name="afterMethod" finished-at="2026-11-15T21:03:06 ICT" duration-ms="148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=previous status=SUCCESS method=Demotest.previous()[pri:17, instance:test.Demotest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="test(java.lang.reflect.Method)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:06 ICT" name="test" finished-at="2026-11-15T21:03:06 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Demotest.contact()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="contact()[pri:18, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:06 ICT" name="contact" finished-at="2026-11-15T21:03:06 ICT" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:06 ICT" name="afterMethod" finished-at="2026-11-15T21:03:07 ICT" duration-ms="365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contact status=SUCCESS method=Demotest.contact()[pri:18, instance:test.Demotest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="test(java.lang.reflect.Method)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:07 ICT" name="test" finished-at="2026-11-15T21:03:07 ICT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Demotest.fillform() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="fillform()[pri:19, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:07 ICT" name="fillform" finished-at="2026-11-15T21:03:07 ICT" duration-ms="783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillform -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:07 ICT" name="afterMethod" finished-at="2026-11-15T21:03:08 ICT" duration-ms="560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fillform status=SUCCESS method=Demotest.fillform()[pri:19, instance:test.Demotest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="test(java.lang.reflect.Method)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:08 ICT" name="test" finished-at="2026-11-15T21:03:08 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Demotest.about()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="about()[pri:20, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:08 ICT" name="about" finished-at="2026-11-15T21:03:08 ICT" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- about -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:08 ICT" name="afterMethod" finished-at="2026-11-15T21:03:08 ICT" duration-ms="242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=about status=SUCCESS method=Demotest.about()[pri:20, instance:test.Demotest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="test(java.lang.reflect.Method)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:08 ICT" name="test" finished-at="2026-11-15T21:03:08 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Demotest.start()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="start()[pri:21, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:08 ICT" name="start" finished-at="2026-11-15T21:03:09 ICT" duration-ms="564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:09 ICT" name="afterMethod" finished-at="2026-11-15T21:03:09 ICT" duration-ms="193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=start status=SUCCESS method=Demotest.start()[pri:21, instance:test.Demotest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="test(java.lang.reflect.Method)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:09 ICT" name="test" finished-at="2026-11-15T21:03:09 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Demotest.fullscreen()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="fullscreen()[pri:22, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:09 ICT" name="fullscreen" finished-at="2026-11-15T21:03:10 ICT" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fullscreen -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:10 ICT" name="afterMethod" finished-at="2026-11-15T21:03:10 ICT" duration-ms="284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fullscreen status=SUCCESS method=Demotest.fullscreen()[pri:22, instance:test.Demotest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="test(java.lang.reflect.Method)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:10 ICT" name="test" finished-at="2026-11-15T21:03:10 ICT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.Demotest.logout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="logout()[pri:23, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:10 ICT" name="logout" finished-at="2026-11-15T21:03:10 ICT" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:10 ICT" name="afterMethod" finished-at="2026-11-15T21:03:11 ICT" duration-ms="158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logout status=SUCCESS method=Demotest.logout()[pri:23, instance:test.Demotest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:11 ICT" name="browserClose" finished-at="2026-11-15T21:03:11 ICT" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="end()[pri:0, instance:test.Demotest@7eac9008]" started-at="2026-11-15T21:03:11 ICT" name="end" finished-at="2026-11-15T21:03:11 ICT" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- test.Demotest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

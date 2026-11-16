@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\User\AppData\Local\Temp\testng-eclipse-1177658321\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Demotest" class="method navigator-link" hash-for-method="about">about</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Demotest" class="method navigator-link" hash-for-method="addAllLaptops">addAllLaptops</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Demotest" class="method navigator-link" hash-for-method="alllinks">alllinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Demotest" class="method navigator-link" hash-for-method="cart">cart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Demotest" class="method navigator-link" hash-for-method="carticon">carticon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Demotest" class="method navigator-link" hash-for-method="close">close</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Demotest" class="method navigator-link" hash-for-method="confirmation">confirmation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Demotest" class="method navigator-link" hash-for-method="contact">contact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Demotest" class="method navigator-link" hash-for-method="fill">fill</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Demotest" class="method navigator-link" hash-for-method="fillform">fillform</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Demotest" class="method navigator-link" hash-for-method="fullscreen">fullscreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Demotest" class="method navigator-link" hash-for-method="home">home</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Demotest" class="method navigator-link" hash-for-method="hometab">hometab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Demotest" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Demotest" class="method navigator-link" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Demotest" class="method navigator-link" hash-for-method="monitor">monitor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Demotest" class="method navigator-link" hash-for-method="newtab">newtab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Demotest" class="method navigator-link" hash-for-method="next">next</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Demotest" class="method navigator-link" hash-for-method="phonepage">phonepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Demotest" class="method navigator-link" hash-for-method="placeorder">placeorder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Demotest" class="method navigator-link" hash-for-method="previous">previous</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Demotest" class="method navigator-link" hash-for-method="product">product</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="test.Demotest" class="method navigator-link" hash-for-method="start">start</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.Demotest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="about">
+                  </a> <!-- about -->
+                  <span class="method-name">about</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addAllLaptops">
+                  </a> <!-- addAllLaptops -->
+                  <span class="method-name">addAllLaptops</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alllinks">
+                  </a> <!-- alllinks -->
+                  <span class="method-name">alllinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cart">
+                  </a> <!-- cart -->
+                  <span class="method-name">cart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="carticon">
+                  </a> <!-- carticon -->
+                  <span class="method-name">carticon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="close">
+                  </a> <!-- close -->
+                  <span class="method-name">close</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmation">
+                  </a> <!-- confirmation -->
+                  <span class="method-name">confirmation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contact">
+                  </a> <!-- contact -->
+                  <span class="method-name">contact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fill">
+                  </a> <!-- fill -->
+                  <span class="method-name">fill</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillform">
+                  </a> <!-- fillform -->
+                  <span class="method-name">fillform</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fullscreen">
+                  </a> <!-- fullscreen -->
+                  <span class="method-name">fullscreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="home">
+                  </a> <!-- home -->
+                  <span class="method-name">home</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hometab">
+                  </a> <!-- hometab -->
+                  <span class="method-name">hometab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="monitor">
+                  </a> <!-- monitor -->
+                  <span class="method-name">monitor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newtab">
+                  </a> <!-- newtab -->
+                  <span class="method-name">newtab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="next">
+                  </a> <!-- next -->
+                  <span class="method-name">next</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="phonepage">
+                  </a> <!-- phonepage -->
+                  <span class="method-name">phonepage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeorder">
+                  </a> <!-- placeorder -->
+                  <span class="method-name">placeorder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="previous">
+                  </a> <!-- previous -->
+                  <span class="method-name">previous</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="product">
+                  </a> <!-- product -->
+                  <span class="method-name">product</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="start">
+                  </a> <!-- start -->
+                  <span class="method-name">start</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\User\AppData\Local\Temp\testng-eclipse-1177658321\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.Demotest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addAllLaptops')
+data.setCell(0, 2, 'test.Demotest')
+data.setCell(0, 3, 18444);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'login')
+data.setCell(1, 2, 'test.Demotest')
+data.setCell(1, 3, 2136);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'cart')
+data.setCell(2, 2, 'test.Demotest')
+data.setCell(2, 3, 1707);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'hometab')
+data.setCell(3, 2, 'test.Demotest')
+data.setCell(3, 3, 939);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'carticon')
+data.setCell(4, 2, 'test.Demotest')
+data.setCell(4, 3, 819);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'fillform')
+data.setCell(5, 2, 'test.Demotest')
+data.setCell(5, 3, 783);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'product')
+data.setCell(6, 2, 'test.Demotest')
+data.setCell(6, 3, 778);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'fullscreen')
+data.setCell(7, 2, 'test.Demotest')
+data.setCell(7, 3, 708);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'start')
+data.setCell(8, 2, 'test.Demotest')
+data.setCell(8, 3, 564);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'logout')
+data.setCell(9, 2, 'test.Demotest')
+data.setCell(9, 3, 481);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'fill')
+data.setCell(10, 2, 'test.Demotest')
+data.setCell(10, 3, 428);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'alllinks')
+data.setCell(11, 2, 'test.Demotest')
+data.setCell(11, 3, 235);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'next')
+data.setCell(12, 2, 'test.Demotest')
+data.setCell(12, 3, 175);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'monitor')
+data.setCell(13, 2, 'test.Demotest')
+data.setCell(13, 3, 175);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'previous')
+data.setCell(14, 2, 'test.Demotest')
+data.setCell(14, 3, 161);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'contact')
+data.setCell(15, 2, 'test.Demotest')
+data.setCell(15, 3, 140);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'newtab')
+data.setCell(16, 2, 'test.Demotest')
+data.setCell(16, 3, 136);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'confirmation')
+data.setCell(17, 2, 'test.Demotest')
+data.setCell(17, 3, 127);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'about')
+data.setCell(18, 2, 'test.Demotest')
+data.setCell(18, 3, 107);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'placeorder')
+data.setCell(19, 2, 'test.Demotest')
+data.setCell(19, 3, 91);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'close')
+data.setCell(20, 2, 'test.Demotest')
+data.setCell(20, 3, 88);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'home')
+data.setCell(21, 2, 'test.Demotest')
+data.setCell(21, 3, 87);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'phonepage')
+data.setCell(22, 2, 'test.Demotest')
+data.setCell(22, 3, 55);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Demotest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">reportSetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">300 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">test(public void test.Demotest.login())</span>
+                <span class="method-start">4781 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">4891 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=login status=SUCCESS method=Demotest.login()[pri:1, instance:test.Demotest@7eac9008...)</span>
+                <span class="method-start">7030 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test(public void test.Demotest.home())</span>
+                <span class="method-start">7178 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">home</span>
+                <span class="method-start">7179 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=home status=SUCCESS method=Demotest.home()[pri:2, instance:test.Demotest@7eac9008] ...)</span>
+                <span class="method-start">7270 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test(public void test.Demotest.phonepage())</span>
+                <span class="method-start">7447 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">phonepage</span>
+                <span class="method-start">7448 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=phonepage status=SUCCESS method=Demotest.phonepage()[pri:3, instance:test.Demotest@...)</span>
+                <span class="method-start">7504 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test(public void test.Demotest.alllinks())</span>
+                <span class="method-start">7660 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">alllinks</span>
+                <span class="method-start">7661 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=alllinks status=SUCCESS method=Demotest.alllinks()[pri:4, instance:test.Demotest@7e...)</span>
+                <span class="method-start">7897 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test(public void test.Demotest.product())</span>
+                <span class="method-start">8082 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">product</span>
+                <span class="method-start">8083 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=product status=SUCCESS method=Demotest.product()[pri:5, instance:test.Demotest@7eac...)</span>
+                <span class="method-start">8867 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test(public void test.Demotest.cart())</span>
+                <span class="method-start">9073 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cart</span>
+                <span class="method-start">9073 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=cart status=SUCCESS method=Demotest.cart()[pri:6, instance:test.Demotest@7eac9008] ...)</span>
+                <span class="method-start">10782 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test(public void test.Demotest.carticon())</span>
+                <span class="method-start">11004 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">carticon</span>
+                <span class="method-start">11005 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=carticon status=SUCCESS method=Demotest.carticon()[pri:7, instance:test.Demotest@7e...)</span>
+                <span class="method-start">11831 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test(public void test.Demotest.placeorder())</span>
+                <span class="method-start">12057 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">placeorder</span>
+                <span class="method-start">12059 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=placeorder status=SUCCESS method=Demotest.placeorder()[pri:8, instance:test.Demotes...)</span>
+                <span class="method-start">12152 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test(public void test.Demotest.fill())</span>
+                <span class="method-start">12380 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fill</span>
+                <span class="method-start">12381 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=fill status=SUCCESS method=Demotest.fill()[pri:9, instance:test.Demotest@7eac9008] ...)</span>
+                <span class="method-start">12810 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test(public void test.Demotest.confirmation())</span>
+                <span class="method-start">12979 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">confirmation</span>
+                <span class="method-start">12980 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=confirmation status=SUCCESS method=Demotest.confirmation()[pri:10, instance:test.De...)</span>
+                <span class="method-start">13109 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test(public void test.Demotest.close())</span>
+                <span class="method-start">13266 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">close</span>
+                <span class="method-start">13268 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=close status=SUCCESS method=Demotest.close()[pri:11, instance:test.Demotest@7eac900...)</span>
+                <span class="method-start">13357 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test(public void test.Demotest.newtab())</span>
+                <span class="method-start">13497 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">newtab</span>
+                <span class="method-start">13497 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=newtab status=SUCCESS method=Demotest.newtab()[pri:12, instance:test.Demotest@7eac9...)</span>
+                <span class="method-start">13636 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test(public void test.Demotest.addAllLaptops())</span>
+                <span class="method-start">13788 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addAllLaptops</span>
+                <span class="method-start">13788 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=addAllLaptops status=SUCCESS method=Demotest.addAllLaptops()[pri:13, instance:test....)</span>
+                <span class="method-start">32237 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test(public void test.Demotest.hometab())</span>
+                <span class="method-start">32511 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">hometab</span>
+                <span class="method-start">32513 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=hometab status=SUCCESS method=Demotest.hometab()[pri:14, instance:test.Demotest@7ea...)</span>
+                <span class="method-start">33469 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test(public void test.Demotest.next())</span>
+                <span class="method-start">33778 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">next</span>
+                <span class="method-start">33779 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=next status=SUCCESS method=Demotest.next()[pri:15, instance:test.Demotest@7eac9008]...)</span>
+                <span class="method-start">33957 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test(public void test.Demotest.monitor())</span>
+                <span class="method-start">34123 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">monitor</span>
+                <span class="method-start">34124 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=monitor status=SUCCESS method=Demotest.monitor()[pri:16, instance:test.Demotest@7ea...)</span>
+                <span class="method-start">34302 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test(public void test.Demotest.previous())</span>
+                <span class="method-start">34606 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">previous</span>
+                <span class="method-start">34606 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=previous status=SUCCESS method=Demotest.previous()[pri:17, instance:test.Demotest@7...)</span>
+                <span class="method-start">34771 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test(public void test.Demotest.contact())</span>
+                <span class="method-start">34920 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contact</span>
+                <span class="method-start">34921 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=contact status=SUCCESS method=Demotest.contact()[pri:18, instance:test.Demotest@7ea...)</span>
+                <span class="method-start">35064 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test(public void test.Demotest.fillform() throws java.io.IOException)</span>
+                <span class="method-start">35431 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fillform</span>
+                <span class="method-start">35433 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=fillform status=SUCCESS method=Demotest.fillform()[pri:19, instance:test.Demotest@7...)</span>
+                <span class="method-start">36219 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test(public void test.Demotest.about())</span>
+                <span class="method-start">36779 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">about</span>
+                <span class="method-start">36780 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=about status=SUCCESS method=Demotest.about()[pri:20, instance:test.Demotest@7eac900...)</span>
+                <span class="method-start">36891 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test(public void test.Demotest.start())</span>
+                <span class="method-start">37134 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">start</span>
+                <span class="method-start">37135 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=start status=SUCCESS method=Demotest.start()[pri:21, instance:test.Demotest@7eac900...)</span>
+                <span class="method-start">37701 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test(public void test.Demotest.fullscreen())</span>
+                <span class="method-start">37895 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fullscreen</span>
+                <span class="method-start">37896 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=fullscreen status=SUCCESS method=Demotest.fullscreen()[pri:22, instance:test.Demote...)</span>
+                <span class="method-start">38609 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test(public void test.Demotest.logout())</span>
+                <span class="method-start">38897 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logout</span>
+                <span class="method-start">38899 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=logout status=SUCCESS method=Demotest.logout()[pri:23, instance:test.Demotest@7eac9...)</span>
+                <span class="method-start">39382 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">browserClose</span>
+                <span class="method-start">39541 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">end</span>
+                <span class="method-start">39812 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

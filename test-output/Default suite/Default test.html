@@ -1,0 +1,195 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Nov 15 21:02:31 ICT 2026</td>
+</tr>
+<tr><td>Total time:</td><td>40 seconds (40148 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.Demotest.cart()'><b>cart</b><br>Test class: test.Demotest</td>
+<td></td>
+<td>1</td>
+<td>test.Demotest@7eac9008</td></tr>
+<tr>
+<td title='test.Demotest.next()'><b>next</b><br>Test class: test.Demotest</td>
+<td></td>
+<td>0</td>
+<td>test.Demotest@7eac9008</td></tr>
+<tr>
+<td title='test.Demotest.home()'><b>home</b><br>Test class: test.Demotest</td>
+<td></td>
+<td>0</td>
+<td>test.Demotest@7eac9008</td></tr>
+<tr>
+<td title='test.Demotest.close()'><b>close</b><br>Test class: test.Demotest</td>
+<td></td>
+<td>0</td>
+<td>test.Demotest@7eac9008</td></tr>
+<tr>
+<td title='test.Demotest.login()'><b>login</b><br>Test class: test.Demotest</td>
+<td></td>
+<td>2</td>
+<td>test.Demotest@7eac9008</td></tr>
+<tr>
+<td title='test.Demotest.about()'><b>about</b><br>Test class: test.Demotest</td>
+<td></td>
+<td>0</td>
+<td>test.Demotest@7eac9008</td></tr>
+<tr>
+<td title='test.Demotest.start()'><b>start</b><br>Test class: test.Demotest</td>
+<td></td>
+<td>0</td>
+<td>test.Demotest@7eac9008</td></tr>
+<tr>
+<td title='test.Demotest.fullscreen()'><b>fullscreen</b><br>Test class: test.Demotest</td>
+<td></td>
+<td>0</td>
+<td>test.Demotest@7eac9008</td></tr>
+<tr>
+<td title='test.Demotest.addAllLaptops()'><b>addAllLaptops</b><br>Test class: test.Demotest</td>
+<td></td>
+<td>18</td>
+<td>test.Demotest@7eac9008</td></tr>
+<tr>
+<td title='test.Demotest.alllinks()'><b>alllinks</b><br>Test class: test.Demotest</td>
+<td></td>
+<td>0</td>
+<td>test.Demotest@7eac9008</td></tr>
+<tr>
+<td title='test.Demotest.logout()'><b>logout</b><br>Test class: test.Demotest</td>
+<td></td>
+<td>0</td>
+<td>test.Demotest@7eac9008</td></tr>
+<tr>
+<td title='test.Demotest.fill()'><b>fill</b><br>Test class: test.Demotest</td>
+<td></td>
+<td>0</td>
+<td>test.Demotest@7eac9008</td></tr>
+<tr>
+<td title='test.Demotest.newtab()'><b>newtab</b><br>Test class: test.Demotest</td>
+<td></td>
+<td>0</td>
+<td>test.Demotest@7eac9008</td></tr>
+<tr>
+<td title='test.Demotest.contact()'><b>contact</b><br>Test class: test.Demotest</td>
+<td></td>
+<td>0</td>
+<td>test.Demotest@7eac9008</td></tr>
+<tr>
+<td title='test.Demotest.placeorder()'><b>placeorder</b><br>Test class: test.Demotest</td>
+<td></td>
+<td>0</td>
+<td>test.Demotest@7eac9008</td></tr>
+<tr>
+<td title='test.Demotest.confirmation()'><b>confirmation</b><br>Test class: test.Demotest</td>
+<td></td>
+<td>0</td>
+<td>test.Demotest@7eac9008</td></tr>
+<tr>
+<td title='test.Demotest.previous()'><b>previous</b><br>Test class: test.Demotest</td>
+<td></td>
+<td>0</td>
+<td>test.Demotest@7eac9008</td></tr>
+<tr>
+<td title='test.Demotest.monitor()'><b>monitor</b><br>Test class: test.Demotest</td>
+<td></td>
+<td>0</td>
+<td>test.Demotest@7eac9008</td></tr>
+<tr>
+<td title='test.Demotest.hometab()'><b>hometab</b><br>Test class: test.Demotest</td>
+<td></td>
+<td>0</td>
+<td>test.Demotest@7eac9008</td></tr>
+<tr>
+<td title='test.Demotest.fillform()'><b>fillform</b><br>Test class: test.Demotest</td>
+<td></td>
+<td>0</td>
+<td>test.Demotest@7eac9008</td></tr>
+<tr>
+<td title='test.Demotest.phonepage()'><b>phonepage</b><br>Test class: test.Demotest</td>
+<td></td>
+<td>0</td>
+<td>test.Demotest@7eac9008</td></tr>
+<tr>
+<td title='test.Demotest.product()'><b>product</b><br>Test class: test.Demotest</td>
+<td></td>
+<td>0</td>
+<td>test.Demotest@7eac9008</td></tr>
+<tr>
+<td title='test.Demotest.carticon()'><b>carticon</b><br>Test class: test.Demotest</td>
+<td></td>
+<td>0</td>
+<td>test.Demotest@7eac9008</td></tr>
+</table><p>
+</body>
+</html>
